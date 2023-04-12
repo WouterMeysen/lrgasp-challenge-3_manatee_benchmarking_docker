@@ -58,10 +58,10 @@ def validate_input_data(input, public_ref_dir, community_id, challenges_ids, par
     """
 
     VALID_CHALLENGES_IDS = ['manatee_len',
-                            'manatee_%BUSCO_gene_found_vs_complete',
-                            'manatee%canonical_SJ_vs%SJ_SR_coverage',
+                            'manatee_%_BUSCO_gene_found_vs_complete',
+                            'manatee_%_canonical_SJ_vs_%_SJ_SR_coverage',
                             'manatee_trans',
-                            'manatee%trans_with_intra-priming_vs_rt_switching',
+                            'manatee_%_trans_with_intra-priming_vs_rt_switching',
                             'manatee_num_trans_vs_with_coding_potential',
                             'manatee_sirvs']
 
