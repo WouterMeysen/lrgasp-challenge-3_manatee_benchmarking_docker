@@ -13,4 +13,4 @@ RUN apt-get update && apt-get -y install procps && rm -rf /var/lib/apt/lists/* &
 # Copy the current directory contents into the container at /app
 COPY . /app
 
-ENTRYPOINT ["python","manage_assessment_data_manatee.py"]
+#ENTRYPOINT ["python","manage_assessment_data_manatee.py"]
